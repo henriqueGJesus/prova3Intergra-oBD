@@ -13,9 +13,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class OrdemManutencao extends OrdemDeServico{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
     private String equipamento;
     private Integer dataManutencao;
 }
